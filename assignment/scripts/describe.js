@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable 'number' is set to one
+// number is incremented with '++' operator to two
+// if statement tests if number is greaterthan or equal to 2
+//console.log will output 'yes' because variable number is 2
 
 //CODE
 /*
@@ -45,9 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// variable 'name' is equal to 'Dane'
+// if statement test to see if variable is equal to 'Mary'
+// since variable dosen't if statement will be false and output the else condition
+// console.log will output 'How do you do?'
 //
 
 //CODE
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// viarable 'code' is set to 123
+// if statement will test if variable 'code is equal to 123' since id dose variable 'secret' will be set to 'super and code multipled by 2 to 246
+// 2nd if statement since code is less than 250 the condition will not run and secret will not be changed
+// console.log will display 'super'
 
 //CODE
 /*
@@ -93,7 +94,10 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
-
+// variable isStudent is set to true, variable age is set to 34, and variable zip is set to 55407
+// first condition of the if statement will fail because both conditions are not true moving to the next else statement
+// 1st else statement will fail because both isStudent is true and age is greater than 30
+// 2nd else statement will be true since isStudent is true and console.log will output 'Welcome to Prime!'
 
 
 // REVERSE
@@ -130,9 +134,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// colorOne should be set to 'blue' and color Two should be set to 'red' per instructions
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+
+// colorTwo should also be set to 'purple' withing the if statement per instructions
 
 if (mix === true) {
   colorOne = 'purple';
@@ -144,8 +153,13 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+// using const to set time will not allow it to be changed and will always read as 4
 let temp = 40;
 const time = 4;
+
+
+//
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +173,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// the console.log for each condtion need to be swapped so since the condition minAge <= age being true will display 'enter' and the else will display 'no entry'
 
 if(minAge <= age) {
   console.log('no entry');
